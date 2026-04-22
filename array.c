@@ -46,17 +46,20 @@ box_array_pop(BoxArray *a)
 	a->count--;
 }
 
-int box_array_at(BoxArray *a, size_t i)
+int
+box_array_at(BoxArray *a, size_t i)
 {
 	return a->elements[i];
 }
 
-void box_array_set(BoxArray *a, size_t i, int e)
+void
+box_array_set(BoxArray *a, size_t i, int e)
 {
 	a->elements[i] = e;
 }
 
-size_t box_array_size(BoxArray *a)
+size_t
+box_array_size(BoxArray *a)
 {
 	return a->count;
 }
