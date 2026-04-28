@@ -18,7 +18,7 @@ Include and use:
 #include <stdlib.h>
 #include <stdio.h>
 
-#include "array.h"
+#include "box/array.h"
 
 int
 main(void)
