@@ -1,6 +1,6 @@
 # Box
 
-My take on basic C data structures. Nothing fancy, just works.
+My take on basic C data structures.
 
 **Status:** Array ⏳ | List ❌ | Map ❌
 
